@@ -22,7 +22,7 @@ class InSet extends Operator
      */
     public function __construct(array $values)
     {
-        $this->values = array_map('trim',$values);
+        $this->values = array_map('trim', $values);
     }
 
     /**
